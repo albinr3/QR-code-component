@@ -16,22 +16,21 @@ body{
 }
 
 .box{
-    width: 230px;
-    height: 360px;
+    max-width: 230px;
     background-color: white;
     border-radius: 12px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
     
-    align-content: center;
 }
 
 img{
-    width: 200px;
-    border-radius: 8px;
-    margin: 10px;
-    background-color: red;
+    max-width: 100%;
+    border-radius: 18px;
+    padding: 10px;
+    display: block;
+    
 }
 
 .big-text{
@@ -47,7 +46,7 @@ img{
     color: hsl(220, 15%, 55%);
     font-size: 12px;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
